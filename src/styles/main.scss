@@ -1,0 +1,18 @@
+:root {
+  --first-color: #deeb2f;
+  --text-color: #fafafa;
+  --bg-color: #070707;
+}
+
+html {
+  font-size: 18px;
+  background-color: var(--first-color);
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
