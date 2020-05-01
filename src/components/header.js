@@ -10,10 +10,16 @@ import logo from "../assets/cat-icon.jpg"
 const Header = ({ title }) => {
   // State usage with the local storage
   const useStateWithLocalStorage = key => {
-    const [gallery, setGallery] = useState(localStorage.getItem(key) || "cats")
+    const [gallery, setGallery] = useState(
+      typeof window !== "undefined"
+        ? localStorage.getItem(key) || "cats"
+        : "cats"
+    )
 
     useEffect(() => {
-      localStorage.setItem(key, gallery)
+      if (typeof window !== "undefined") {
+        localStorage.setItem(key, gallery)
+      }
     }, [gallery])
 
     return [gallery, setGallery]
