@@ -15,6 +15,8 @@ Horizontal Mode / Vertical Mode/ Normal Mode
 
 ## 🚀 Démo
 
+https://power-to-the-cats.netlify.app/
+
 ## 🚀 Quick start
 
 1.  **Start developing.**
