@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="./src/assets/demo.png" width="500" />
+    <img alt="Gatsby" src="./src/assets/demo-1.png" width="500" />
   </a>
 </p>
 <h1 align="center">
@@ -9,9 +9,10 @@
 </h1>
 
 Usage of CSS Grid Layout to create a Responsive image Gallery.
-The images are displayed differently regarding their ratio.
 
-Horizontal Mode / Vertical Mode/ Normal Mode
+The images are displayed depending their ratio ==> Horizontal, Vertical or Square
+
+The pages are generated automatically regarding the content of the Gallery folder. One gallery per subfolder.
 
 ## 🚀 Démo
 
@@ -30,4 +31,9 @@ https://power-to-the-cats.netlify.app/
 
 1.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+        Your site is now running at `http://localhost:8000`!
+
+      <a href="https://www.gatsbyjs.org">
+        <img alt="Gatsby" src="./src/assets/demo-2.png" width="500" />
+      </a>
+    </p>

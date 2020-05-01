@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `gallery`,
+        path: `${__dirname}/src/gallery`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
+        name: `css`,
         path: `${__dirname}/src/`,
       },
     },

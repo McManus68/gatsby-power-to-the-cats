@@ -1,3 +1,5 @@
+@import "./_variables";
+
 :root {
   --first-color: #deeb2f;
   --text-color: #fafafa;
@@ -6,7 +8,6 @@
 
 html {
   font-size: 18px;
-  background-color: var(--first-color);
 }
 
 body {
@@ -15,4 +16,28 @@ body {
 
 h1 {
   margin: 0;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: $large-device) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: $medium-device) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: $small-device) {
+  html {
+    font-size: 12px;
+  }
 }
